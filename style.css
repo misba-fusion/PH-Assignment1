@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: Azeret Mono;
+    margin: 0px;
+}
+
+/* navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.nav-title {
+    font-size: 25px;
+}
+
+.nav-btn {
+    opacity: 0.8;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border-color: gray;
+}
+
+/* hero section */
+#hero {
+    background-image: url(assets/Hero-bg.png);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 596px;
+}
+
+.hero-container {
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.hero-img {
+    margin-bottom: 32px;
+
+}
+
+.hero-title {
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.hero-pera {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.hero-btn {
+    padding: 18px 20px;
+    border-radius: 5px;
+    background: rgb(13, 19, 33);
+    color: white;
+    font-size: 15px;
+}
+
+/* about section */
+#about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about-box {
+    background-color: rgba(4, 43, 141, 0.119);
+    margin: 60px 150px;
+    border-radius: 10px;
+}
+
+.about-title {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 30px;
+
+}
+
+.about-pera {
+    opacity: 0.7;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+.about-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+    background-color: aliceblue;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    align-items: center;
+    border-radius: 10px;
+    padding: 48px;
+}
+
+.about-card-text {
+    text-align: start;
+    width: 500px;
+}
+
+.card-title {
+    font-size: 25px;
+
+}
+
+.card-pera {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    opacity: 0.7;
+
+}
+
+.card-btn {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    width: 150px;
+    height: 48px;
+    font-size: 16px;
+}
+
+.all-card{
+    margin-bottom: 60px;
+}
