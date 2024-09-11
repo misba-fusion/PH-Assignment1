@@ -79,7 +79,10 @@ nav {
 
 .about-box {
     background-color: rgba(4, 43, 141, 0.119);
-    margin: 60px 150px;
+    margin-top: 60px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 0px;
     border-radius: 10px;
 }
 
@@ -138,6 +141,248 @@ nav {
     font-size: 16px;
 }
 
-.all-card{
+.all-card {
     margin-bottom: 60px;
+}
+
+/* video player */
+
+#video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 695px;
+    margin-top: 80px;
+    align-items: center;
+}
+
+.video-text {
+    width: 1000px;
+}
+
+.video-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.video-pera {
+    opacity: 0.7;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+.video-box {
+    border: 25px solid rgba(4, 43, 141, 0.119);
+    ;
+    border-radius: 16px;
+}
+
+/* skill section*/
+#skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+    align-items: center;
+}
+
+.skill-text {
+    width: 1000px;
+    margin-bottom: 70px;
+}
+
+.skill-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.skill.pera {
+    opacity: 0.7;
+    font-size: 16px;
+}
+
+.skill-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.first-card-background {
+    background-color: rgba(255, 75, 30, 0.132);
+    border-radius: 16px;
+    width: 364px;
+}
+
+.second-card-background {
+    background-color: rgba(0, 76, 232, 0.132);
+    border-radius: 16px;
+    width: 364px;
+}
+
+.third-card-background {
+    background-color: rgba(255, 223, 0, 0.132);
+    border-radius: 16px;
+    width: 364px;
+}
+
+.single-card {
+    padding: 40px;
+    text-align: start;
+}
+
+.skill-card-title {
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.skill-card-pera {
+    margin-bottom: 24px;
+    opacity: 0.7;
+    font-size: 16px;
+}
+
+.skill-card-link {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* target section */
+#target {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 695px;
+    margin-top: 150px;
+}
+
+.target-text {
+    width: 1000px;
+    margin-bottom: 50px;
+}
+
+.target-title {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.target-pera {
+    opacity: 0.7;
+    font-size: 16px;
+}
+
+.target-card-container {
+    width: 1300px;
+}
+
+.target-single-card {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.target-card-element {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+}
+
+.target-card-text {
+    text-align: start;
+}
+
+.target-card-pera {
+    margin-top: 8px;
+    margin-bottom: 24px;
+    opacity: 0.7;
+}
+
+/* support section */
+#support {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.support-box {
+    background-image: url(assets/handshake.jpg);
+    border-radius: 16px;
+    width: 1140px;
+    height: 314px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-size: cover;
+    margin: 100px;
+}
+
+.support-container {
+    padding: 64px 48px;
+}
+
+.support-title {
+    color: aliceblue;
+    margin-bottom: 16px;
+}
+
+.support-pera {
+    color: aliceblue;
+    margin-bottom: 50px;
+}
+
+.text-box {
+    width: 548px;
+    height: 57px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin-right: 16px;
+}
+
+.submit-btn {
+    width: 120px;
+    height: 62px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    border: none;
+}
+
+/* footer */
+#footer {
+    width: 1519px;
+    background: rgba(13, 19, 33, 0.144);
+    justify-content: center;
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 25px 150px;
+}
+
+.lists{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+li{
+    list-style: none;
 }
