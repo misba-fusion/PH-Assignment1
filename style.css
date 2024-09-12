@@ -24,7 +24,16 @@ nav {
     opacity: 0.8;
     padding: 10px 15px;
     border-radius: 5px;
-    border-color: gray;
+    border-color: rgb(0, 0, 0);
+    color: black;
+    
+}
+
+.nav-btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    cursor: pointer;
 }
 
 /* hero section */
@@ -68,6 +77,11 @@ nav {
     background: rgb(13, 19, 33);
     color: white;
     font-size: 15px;
+}
+
+.hero-btn:hover{
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 /* about section */
@@ -139,6 +153,13 @@ nav {
     width: 150px;
     height: 48px;
     font-size: 16px;
+}
+
+.card-btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    cursor: pointer;
 }
 
 .all-card {
@@ -254,6 +275,10 @@ nav {
     font-weight: 700;
 }
 
+.skill-card-link:hover{
+    opacity: 0.7;
+}
+
 /* target section */
 #target {
     display: flex;
@@ -361,6 +386,13 @@ nav {
     border: none;
 }
 
+.submit-btn:hover{
+    background-color: rgba(0, 0, 0, 0.29);
+    color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
 /* footer */
 #footer {
     width: 1519px;
@@ -385,4 +417,9 @@ nav {
 
 li{
     list-style: none;
+}
+
+.logo:hover{
+    opacity: 0.6; 
+
 }
